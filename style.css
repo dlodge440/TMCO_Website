@@ -86,25 +86,25 @@ p {
 
 
 .contacts {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* padding: 20px 50px; */
+    padding: 20px 50px;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    z-index: 999;
-}
-
-.contacts h3 {
-    color: white;
 }
 
 
 .contacts .contacts--row {
+    /* display: flex;
+    flex-direction:row;
+    justify-content: left;
+    gap: 20px;
+    padding: 0.9rem ;
+    align-items: center;
+    height: 100%; */
     max-width: 300px;
+    /* column-count: 2; */
+    /* column-width: 100px; */
     margin: auto;
     text-align: center;
 }
@@ -113,12 +113,11 @@ p {
 .contacts--row p {
     font-size: 1.1rem;
     padding: 0.9rem ;
-    color: rgb(230, 230, 230);
 }
 
 .fa-solid {
     font-size: 1.4rem;
-    color:rgb(230, 230, 230);
+    color:#404040;
 }
 
 
@@ -157,42 +156,8 @@ p {
     height:100%;
     width:100%;
     background: rgba(0,0,0,0.05);
-    z-index:2;
+    z-index:999;
 }
-
-.overlay--darker:before{
-    position: absolute;
-    background: rgba(0,0,0,0.55);
-    z-index:2;
-}
-
-button {
-    display: block;
-    margin: 1rem auto;
-    padding: 0.8rem 1.6rem;
-    background-color: white;
-    border-radius: 9px;
-    border: none;
-}
-
-button a {
-    text-decoration: none;
-    font-family: 'futura-pt';
-    font-weight: 600;
-    font-size: 1rem;
-    color: rgb(43, 133, 185);
-}
-
-button:hover {
-    background-color: rgb(43, 133, 185);
-    cursor: pointer;
-}
-
-button:hover a {
-    color: white;
-}
-
-
 
 /* MEDIA QUERIES */
 

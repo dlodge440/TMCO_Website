@@ -5,43 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TMCO Srl. - Attrezzature per lo stampaggio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/nue2qyp.css"> <!-- Font Futura scaricato da Adobe  -->
-    <link rel="shortcut icon" href="favicon_.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/d333acbc54.js" crossorigin="anonymous"></script>
+    <script src="./resources/js/scripts.js" async></script>
+    <meta name="format-detection" content="telephone=no"> <!-- Hide Safari phone links -->
 </head>
 
 <body>
 
     <div class="container">
-        <div class="header center">
-            <img src="./resources/Logo-TMCO.png" alt="Logo-TMCO">
+        <div class="header">
+            <img src="./resources/logo/Logo-TMCO.png" alt="Logo-TMCO" class="center">
+
+            <i class="fa-solid fa-globe" id="globeBtn"></i>
+
+            <div class="languageWrap" id="languageWrap">
+                <button class="languageBtn" id="btnIta">Italiano</button>
+                <button class="languageBtn" id="btnEng">English</button>
+            </div>     
         </div>
 
         
         <div class="fillImg overlay">
-                <img src="./img/home-1.jpg" alt="">
+                <img src="./resources/img/home-1.jpg" alt="">
         </div>
 
         <div class="description">
-            <div class="description_ita">
-                <h2>Attrezzature per lo stampaggio.</h2>
-                <p>TMCo - Tools Molding Company - è un'azienda meccanica di Torino specializzata nella realizzazione di attrezzature in acciaio per lo stampaggio di bulloni, viti, dadi, rondelle, rivetti, tappi, ecc. L'azienda produce sia attrezzature di corredo macchina (contenitori, distanziali, rulli tirafilo, pinze) che attrezzi di formatura (matrici e punzoni). Vengono impiegati Acciai Speciali provenienti dai più qualificati produttori europei, in tutte le qualità disponibili sul mercato.</p>
-            </div>
-
-            <div class="description_eng">
+            <h2 id="descriptionTitle">Attrezzature per lo stampaggio.</h2>
+            <p id="descriptionBody">TMCo - Tools Molding Company - è un'azienda meccanica di Torino specializzata nella realizzazione di attrezzature in acciaio per lo stampaggio di bulloni, viti, dadi, rondelle, rivetti, tappi, ecc. L'azienda produce sia attrezzature di corredo macchina (contenitori, distanziali, rulli tirafilo, pinze) che attrezzi di formatura (matrici e punzoni). Vengono impiegati Acciai Speciali provenienti dai più qualificati produttori europei, in tutte le qualità disponibili sul mercato.</p>
+            <!-- <div class="description_eng">
                 <h2>Tools for metal moulding.</h2>
                 <p>TMCo - Tools Molding Company - is an Italian company based in Turin. We are specialised in the production of tools which are commonly used to mould steel - punches for instance - but we also manifacture machine components, like spacers or tension rollers. We utilize all types of steel made by the most renowned steelworks in Europe.</p>
-            </div>
-
+            </div> -->
         </div>
 
         <div class="fillImg overlay">
-            <img src="./img/home-2.jpg" alt="">
+            <img src="./resources/img/home-2.jpg" alt="">
         </div>
 
         <div class="contacts">
-           <h3>Contatti</h3>
+           <h3 id="contactsTitle">Contatti</h3>
                 <div class="contacts--row">
                     
                     <i class="fa-solid fa-envelope"></i>
